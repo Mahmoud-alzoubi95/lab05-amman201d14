@@ -81,7 +81,7 @@ function sumArray(sumArr) {
     //console.log(testArray)
 
   //  console.log(testArray)
-  return [y,"2,3,4 was passed in as an array of numbers, and 9 is their sum."];
+  return [y,`${a},${b},${c} was passed in as an array of numbers, and ${y} is their sum.`];
 }
 
 // // Here is the test for sumArray(); uncomment it to run it
@@ -113,7 +113,7 @@ total=multiply(multArr[i],total)[0];
 }
 
 //let returnArray=[total,"The numbers 2,3,4 have a product of 24."];
-return [total,"The numbers 2,3,4 have a product of 24."] ;
+return [total,`The numbers ${a},${b},${c} have a product of ${total}.`] ;
 
 
 }
